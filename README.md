@@ -57,9 +57,11 @@ python gui.py
 You can control which assistive AIs are active using the `ai_toggle_config.json` file. Example:
 ```json
 {
-  "blind_assist": true,
-  "deaf_assist": false,
-  "hand_assist": true
+{"Zarah": false,
+"Ava": false,
+"Echo": false,
+"Hollow": false,
+"BlindKeyboardTraining": false}
 }
 ```
 
